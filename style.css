@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .menu-container{
-    color: white;
+    color: black;
     background-color: palevioletred;
     padding: 20px 0;
     display: flex;
@@ -19,4 +19,26 @@
     display: flex;
     width: 150px;
     justify-content: space-between;
+}
+.header-container{
+    color: black;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.subscribe , .social{
+    align-self:flex-end;
+    margin-bottom: 20px;
+}
+
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
 }
